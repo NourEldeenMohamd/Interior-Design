@@ -83,7 +83,7 @@ $(document).ready(function () {
 
   // count down
   var counter = $(".countdown").html()
-  $('.countdown').countdown('2021/01/01', function(event) {
+  $('.countdown').countdown('2021/04/13', function(event) {
     $(this).html(event.strftime(counter));
   });
 
